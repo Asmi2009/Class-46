@@ -17,7 +17,7 @@ function preload() {
   obsT2img = loadImage("assets/obsTop2.png")
   obsB1img = loadImage("assets/obsBottom1.png")
   obsB2img = loadImage("assets/obsBottom2.png")
-  obsB3img = loadImage("assets/obsBottom3.pmg")
+  obsB3img = loadImage("assets/obsBottom3.png")
 }
 
 function setup () {
@@ -50,7 +50,7 @@ if (keyDown("space")) {
 ballon.velocityY=ballon.velocityY+2
 
 spawnTopObstacle();
-spawnBottomObstacle();
+//spawnBottomObstacle();
 
 drawSprites()
 
